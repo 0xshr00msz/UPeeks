@@ -16,6 +16,9 @@ header{
     align-items: center;
     background-color: #800000;
 }
+a{
+    text-decoration: none;
+}
 
 .header-logo{
     padding-left: 50px;
@@ -26,5 +29,5 @@ header{
 .upeeks-logo-text{
     cursor: pointer;
     color: white;
-    /* -webkit-text-stroke: 1px black; */
+    font-family: 'Open Sans', sans-serif;
 }
