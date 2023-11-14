@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid green;
+    height: 225px;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #800000;
+}
+
+.header-logo{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 36px;
+}
+
+.upeeks-logo-text{
+    cursor: pointer;
+    color: white;
+    /* -webkit-text-stroke: 1px black; */
+}
