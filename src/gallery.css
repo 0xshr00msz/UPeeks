@@ -1,0 +1,33 @@
+.gallery-nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.gallery-navbar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-navbar li {
+    margin: 0 80px;
+}
+
+.gallery-navbar a {
+    position: relative;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.gallery-nav hr{
+    width: 75%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}

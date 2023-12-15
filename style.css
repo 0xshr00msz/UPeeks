@@ -13,30 +13,27 @@ body{
 
 /* !START! Universal CSS for HEADER */
 header{
-    border: 1px solid green;
     height: 75px;
     padding: 10px;
-    padding-left: 75px;
-    padding-right: 75px;
     display: flex;
     align-items: center;
     background-color: #800000;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 a{
     text-decoration: none;
 }
 
 .header-logo{
-    margin-left: 150px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
-.upeeks-logo-text{
+.header-logo h1{
     cursor: pointer;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
-
 
 .upLogo {
     position: fixed;
@@ -53,9 +50,8 @@ a{
 
 /* !START! Universal CSS for Navigation Bar */
 nav {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
