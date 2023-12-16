@@ -168,6 +168,8 @@ footer {
 /* Main Body Styles */
 .home{
     background-color: #800000;
+    display: flex;
+    align-items: center;
 }
 
 .slider-container {
@@ -211,4 +213,27 @@ footer {
 
 #next-btn {
     right: 10px;
+}
+
+.fit{
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.home a{
+    float: right;
+}
+.fit a{
+    display: block;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #fff;
+}
+.fit i {
+    font-size: 1.75rem;
+    transition: color 0.4s ease;
 }
