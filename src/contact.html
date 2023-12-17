@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("VGmNl1rvuvUA2_10s");
+    })();
+    </script>
+    <script src="email.js"></script>
     <title>Home</title>
 </head>
 
@@ -73,28 +87,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="contactForm">
+                <div class="contactForm" onsubmit="event.preventDefault(); sendEmail();">
                     <form>
                         <h2>Send Message</h2>
                         <div class="inputBox">
-                            <input type="text" name="fullName" required="required">
+                            <input type="text" name="fullName" id="fullname" required="required">
                             <span>Full Name</span>
                         </div>
                         <div class="inputBox">
-                            <input type="email" name="email" required="required">
+                            <input type="email" name="email" id="email" required="required">
                             <span>Email</span>
                         </div>
                         <div class="inputBox">
-                            <textarea name="message" required="required"></textarea>
+                            <textarea name="message" id="message" required="required"></textarea>
                             <span>Type your Message...</span>
                         </div>
                         <div class="inputBox">
-                            <input type="submit" value="Send">
+                            <input type="submit" value="Send" >
                         </div>
                     </form>
                 </div>
             </div>
         </section>
+    </main>
     <!-- Footer Section -->
     <footer>
         <div class="upLogo">
