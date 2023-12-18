@@ -17,7 +17,7 @@ function sendEmail(){
         document.getElementById("email").value = "";
         document.getElementById("message").value = "";
         console.log(res);
-        alert("Your message sent successfully, iskolar ng bayan!");
+        alert("Your message sent successfully!");
     })
     .catch(err=>console.log(err));
 }
