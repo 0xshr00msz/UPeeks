@@ -8,7 +8,7 @@ body{
 
 /* !START! Universal CSS for HEADER */
 header{
-    height: 150px;
+    height: 24vh;
     padding: 10px;
     display: flex;
     align-items: center;
