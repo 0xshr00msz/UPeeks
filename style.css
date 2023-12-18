@@ -32,13 +32,13 @@ a{
 
 .upLogo {
     position: absolute;
-    margin: 60px;
+    margin: 74px;
 }
 
 .upLogo img {
     width: 200px;
+    margin-left: 100px;
     height: auto; 
-    margin-left: 150px;
 }
 
 /* !START! Universal CSS for Navigation Bar */
