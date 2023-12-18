@@ -145,3 +145,6 @@
   .contactForm .inputBox input[type="submit"]:active {
     background: #001a00;
   }
+  .conIcons a:visited{
+    color: inherit;
+  }

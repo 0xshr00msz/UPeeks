@@ -91,7 +91,7 @@ footer {
     background: #800000;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
-    color: #008000;
+    color: white;
 }
 
 .footer-content {
@@ -161,7 +161,7 @@ footer {
 .footer-bottom p {
     font-size: 15px;
     word-spacing: 5px;
-    color: #008000;
+    color: white;
 }
 /* !END! Universal CSS for FOOTER */
 
