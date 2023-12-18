@@ -7,10 +7,6 @@ h1{
     font-family: 'Open Sans', sans-serif;
 }
 
-main{
-    margin-left: 300px;
-    margin-right: 300px;
-}
 
 main h1{
     text-align: center;
@@ -66,4 +62,99 @@ main h1{
     line-height: 50px;
     margin-top: 50px;
     border: 1px solid black;
+}
+
+.section-container{
+    margin-top: 50px;
+}
+.section-container h1{
+    font-size: 50px;
+    color: #800000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.spacer{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/YJM_8102.JPG");
+    background-attachment: fixed;
+}
+
+.facility-container{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.diner-container{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.transpo-container{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.facility-container img{
+    width: 60%;
+    display: block;
+    margin-right: auto;
+}
+
+.diner-container img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+}
+
+.transpo-container img{
+    width: 60%;
+    display: block;
+    margin-right: auto;
+}
+
+.text-container1{
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 90px;
+    text-align: center;
+}
+.text-container2{
+    position: absolute;
+    top: 0;
+    margin-left: 90px;
+    left: 0;
+    width: 30%;
+    padding-top: 130px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.text-container2 p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 2;
+    font-size: 22px;
+}
+.text-container1 p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 2;
+    font-size: 22px;
+}
+
+.gallery-button{
+    margin-top: 50px;
+    padding: 12px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: #005a00;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
 }
