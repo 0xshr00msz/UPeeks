@@ -13,39 +13,6 @@ main h1{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.gallery-nav {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    margin: auto;
-}
-
-.gallery-navbar {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.gallery-navbar li {
-    margin: 0 80px;
-}
-
-.gallery-navbar a {
-    position: relative;
-    text-decoration: none;
-    color: black; 
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.gallery-nav hr{
-    width: 90%;
-    height: 1px;
-    background-color: black;
-    margin: auto;
-}
 
 .preview{
     display: grid;
