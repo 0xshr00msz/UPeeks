@@ -50,7 +50,7 @@ nav {
 }
 
 .navbar li {
-    margin: 0 4vw;
+    margin: 0 3vw;
 }
 
 .navbar a {
@@ -252,6 +252,8 @@ footer {
     box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.60);
 }
 .stories-container{
+    margin-top: 75px;
+    margin-bottom: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
