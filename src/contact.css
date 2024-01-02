@@ -86,20 +86,17 @@
     width: 40%;
     padding: 40px;
     background: #800000;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 4px;
-    border-color:#003e00;
   }
   .contactForm h2{
     font-size: 30px;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
   }
   .contactForm .inputBox{
     position: relative;
     width:100%;
-    margin-top: 10px;
+    margin-top: 25px;
   }
   .contactForm .inputBox input{
     width: 100%;
@@ -114,25 +111,34 @@
   .contactForm .inputBox span{
     position: absolute;
     left: 0;
+    font-family: Montserrat;
     padding: 5px 0;
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px 0;
     margin-left: 12px;
     pointer-events: none;
-    transition: 0.5s;
+    transition: 0.25s;
     color: gray;
   }
+  
   .contactForm .inputBox input:focus ~ span,
   .contactForm .inputBox input:valid ~ span,
   .contactForm .inputBox textarea:focus ~ span,
   .contactForm .inputBox textarea:valid ~ span{
     color:#fff;
-    font-size:13px;
-    transform: translateY(-28px);
+    font-size: 14px;
+    transform: translateY(-35px);
+  }
+
+  .contactForm .inputBox textarea:focus ~ span,
+  .contactForm .inputBox textarea:valid ~ span{
+    color:#fff;
+    font-size: 14px;
+    transform: translateY(-40px);
   }
   .contactForm .inputBox input[type="submit"]{
     width: 100px;
-    background: #003e00;
+    background: #005a00;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -140,8 +146,11 @@
     font-size:18px;
   }
   .contactForm .inputBox input[type="submit"]:active {
-    background: #001a00;
+    background: #003e00;
   }
   .conIcons a:visited{
     color: inherit;
+  }
+  .inputBox textarea{
+    padding: 12px;
   }
