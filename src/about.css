@@ -129,7 +129,7 @@ body {
   font-size: 1.4em;
 }
 .card:hover {
-  background: linear-gradient(#800000, #670e10);
+  background: linear-gradient(#670e10, #800000);
   color: #ffffff;
 }
 .card:hover .img-container {
