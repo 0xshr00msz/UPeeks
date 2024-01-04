@@ -23,6 +23,7 @@
     width: 80%;
     font-family: Montserrat;
     padding-top: 8px;
+    color: black;
   }
   .conText h3{
     font-family: 'Open Sans', sans-serif;
@@ -35,7 +36,6 @@
   }
   
   .conContact .conContent p {
-    color: #800000;
     font-weight: 500; 
   }
   
@@ -100,7 +100,7 @@
   }
   .contactForm .inputBox input{
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 0px;
     font-size: 16px;
     margin: 10px 0;
     border: none;
