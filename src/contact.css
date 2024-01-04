@@ -123,7 +123,6 @@
   
   .contactForm .inputBox input:focus ~ span,
   .contactForm .inputBox input:valid ~ span,
-  .contactForm .inputBox input:invalid ~ span,
   .contactForm .inputBox textarea:focus ~ span,
   .contactForm .inputBox textarea:valid ~ span{
     color:#fff;
