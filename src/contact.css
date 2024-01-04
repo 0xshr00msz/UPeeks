@@ -149,7 +149,10 @@
     background: #003e00;
   }
   .conIcons a:visited{
-    color: inherit;
+    color: black;
+  }
+  .conIcons a{
+    color: black;
   }
   .inputBox textarea{
     padding: 12px;
