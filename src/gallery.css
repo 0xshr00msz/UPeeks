@@ -35,7 +35,7 @@ main h1{
     margin-top: 50px;
 }
 .section-container h1{
-    font-size: 50px;
+    font-size: 3vw;
     color: #800000;
     font-family: 'Open Sans', sans-serif;
 }
@@ -105,17 +105,17 @@ main h1{
     font-family: Montserrat;
     text-align: justify;
     line-height: 2;
-    font-size: 22px;
+    font-size: 1.2vw;
 }
 .text-container1 p{
     font-family: Montserrat;
     text-align: justify;
     line-height: 2;
-    font-size: 22px;
+    font-size: 1.2vw;
 }
 
 .gallery-button{
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 12px 25px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
