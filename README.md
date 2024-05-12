@@ -9,13 +9,6 @@ Upeeks exhibits the naturistic beauty of UP Mindanao through photography galleri
 * This project is made using Javascript, HTML, and CSS. Published using GitHub Pages.
 * This is not yet responsive. Did not apply Mobile First Approach
 
-## Local Installation 
-### :gear: Setting up
-To get started with UPeeks on your local machine, follow these steps:
-
-**Clone the Repository:**
-```git clone https://github.com/yldevier/UPeeks.git```
-
 ## :clap: Acknowledgements 
 
 ## :pen: Authors and Contributors 
